@@ -1,0 +1,9 @@
+C:\Users\beton\Desktop\Animeneytor\BackEnd\bin\Release\BackEnd.dll
+C:\Users\beton\Desktop\Animeneytor\BackEnd\bin\Release\BackEnd.pdb
+C:\Users\beton\Desktop\Animeneytor\BackEnd\bin\Release\MySql.Data.dll
+C:\Users\beton\Desktop\Animeneytor\BackEnd\bin\Release\MySql.Data.xml
+C:\Users\beton\Desktop\Animeneytor\BackEnd\obj\Release\BackEnd.csprojAssemblyReference.cache
+C:\Users\beton\Desktop\Animeneytor\BackEnd\obj\Release\BackEnd.csproj.CoreCompileInputs.cache
+C:\Users\beton\Desktop\Animeneytor\BackEnd\obj\Release\BackEnd.csproj.CopyComplete
+C:\Users\beton\Desktop\Animeneytor\BackEnd\obj\Release\BackEnd.dll
+C:\Users\beton\Desktop\Animeneytor\BackEnd\obj\Release\BackEnd.pdb

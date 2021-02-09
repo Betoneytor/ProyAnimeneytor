@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="Animeneytor.Home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+     <link rel="stylesheet" href="/Bootstrap/CSS/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/login.css"/>
+    <link rel="stylesheet" type="text/css" href="./CSS/DataTable/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="CSS/materialize.css">
+    
+
+    <script type="text/javascript" charset="utf8" src="./JS/DataTable/jquery-3.5.1.js"></script>
+    <script type="text/javascript" charset="utf8" src="./JS/DataTable/jquery.dataTables.min.js"></script>    
+
+    <script type="text/javascript" charset="utf8" src="/Bootstrap/JS/bootstrap.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="/Bootstrap/JS/jquery-3.3.3.slim.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="/Bootstrap/JS/popper.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="/JS/inicio.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+
+    
+
+</head>
+<body>
+    <div class="header" style="width:100%;">
+    <nav class="nav-extended" style="background-color:#35191a !important;">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo"><img src="images/logo.png"  width="110px"/> </a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#"> <%=Server.HtmlEncode(Session["nombreUsuario"].ToString())%></a></li>        
+        <li><a href="#" id="cerrarSession">Cerrar Sesión</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">                
+        <li><a href="#"> <i class="fas fa-user"></i> <%=Server.HtmlEncode(Session["nombreUsuario"].ToString())%></a></li>
+        <li><a href="#">Cerrar Sesión</a></li>
+      </ul>
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab" id="inicio"><a class="active" id="inicioActive" href="#">Inicio</a></li>
+        <li class="tab" id="lista"><a  href="#" id="listaAnimesActive">Lista de Animes</a></li>        
+      </ul>
+    </div>
+  </nav>
+     <div class="alert alert-success fade out" id="bsalertOkCC" style="width: 40%;position: absolute;right: 0;bottom: 12%;">
+       <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+       <strong>Correcto!</strong> Se Cerro Session Correctamente
+    </div>
+    <div class="alert alert-danger fade out" id="bsalertError" style="width: 40%;position: absolute;right: 0;bottom: 12%;">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <strong>Error!</strong> Ocurrio un error intenta mas tarde
+    </div>
+    </div>
+      <div id="page-content">
+        <div class="container">
+          <asp:ContentPlaceHolder ID="contenido" runat="server">
+
+            </asp:ContentPlaceHolder> 
+        </div>
+      </div>
+   
+      <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; Alberto Angel Aguado Reyes</small>
+        </div>
+      </footer>
+
+    <asp:ContentPlaceHolder ID="scripts" runat="server">
+
+    </asp:ContentPlaceHolder>
+</body>
+</html>

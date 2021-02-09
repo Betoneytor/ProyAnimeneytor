@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animeneytor", "Animeneytor\Animeneytor.csproj", "{7C2C705E-66F1-47C6-B7B6-5F51D1231465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd", "BackEnd\BackEnd.csproj", "{088336DC-03CA-4FE7-AC61-B62EF98B5318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C2C705E-66F1-47C6-B7B6-5F51D1231465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2C705E-66F1-47C6-B7B6-5F51D1231465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2C705E-66F1-47C6-B7B6-5F51D1231465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2C705E-66F1-47C6-B7B6-5F51D1231465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088336DC-03CA-4FE7-AC61-B62EF98B5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088336DC-03CA-4FE7-AC61-B62EF98B5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088336DC-03CA-4FE7-AC61-B62EF98B5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088336DC-03CA-4FE7-AC61-B62EF98B5318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27B2E9B1-A7D8-4E43-BE27-3EE00287906C}
+	EndGlobalSection
+EndGlobal

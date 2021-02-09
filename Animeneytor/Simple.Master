@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Simple.master.cs" Inherits="Animeneytor.Simple" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+       
+    
+    <script type="text/javascript" charset="utf8" src="/JS/noticias.js"></script> 
+    <script type="text/javascript" charset="utf8" src="/JS/animes.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <asp:ContentPlaceHolder ID="contenido" runat="server">
+
+    </asp:ContentPlaceHolder>    
+    
+    <asp:ContentPlaceHolder ID="scripts" runat="server">
+
+    </asp:ContentPlaceHolder>
+</body>
+</html>

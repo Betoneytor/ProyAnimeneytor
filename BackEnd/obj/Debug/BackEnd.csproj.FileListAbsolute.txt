@@ -1,0 +1,9 @@
+C:\Users\José Juvenal Aguado\source\repos\Animeneytor\BackEnd\bin\Debug\BackEnd.dll
+C:\Users\José Juvenal Aguado\source\repos\Animeneytor\BackEnd\bin\Debug\BackEnd.pdb
+C:\Users\José Juvenal Aguado\source\repos\Animeneytor\BackEnd\bin\Debug\MySql.Data.dll
+C:\Users\José Juvenal Aguado\source\repos\Animeneytor\BackEnd\bin\Debug\MySql.Data.xml
+C:\Users\José Juvenal Aguado\source\repos\Animeneytor\BackEnd\obj\Debug\BackEnd.csprojAssemblyReference.cache
+C:\Users\José Juvenal Aguado\source\repos\Animeneytor\BackEnd\obj\Debug\BackEnd.csproj.CoreCompileInputs.cache
+C:\Users\José Juvenal Aguado\source\repos\Animeneytor\BackEnd\obj\Debug\BackEnd.csproj.CopyComplete
+C:\Users\José Juvenal Aguado\source\repos\Animeneytor\BackEnd\obj\Debug\BackEnd.dll
+C:\Users\José Juvenal Aguado\source\repos\Animeneytor\BackEnd\obj\Debug\BackEnd.pdb
